@@ -1,0 +1,164 @@
+*{
+	box-sizing: border-box;
+	}
+	body{
+	background-image:url(https://cdn.pixabay.com/photo/2019/10/17/14/59/libur-4557114_960_720.jpg);
+	height: 100%;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	overflow: auto;
+	
+	}
+	.header{
+	padding: 1px;
+	text-align: center;
+	background: #E2CE26 ;
+	color: black;
+	}
+	.navbar{
+	flex: 1;
+	text-align: center;
+	padding: 14px 20px;
+	background-color: #4D4925;
+	}
+	.navbar a {
+	color: white;
+	padding: 14px 20px;
+	text-decoration: none;
+	text-align: center;
+	}
+	.navbar a:hover{
+	background-color: white;
+	color: black
+	}
+	.row{
+	display:flex;
+	flex-wrap:wrap;
+	background-color: white;
+	}
+	.side{
+		flex: 100%;
+		background-color: bisque;
+		padding: 20px;
+	}
+	.side1{
+		flex: 70%;
+		background-color: white;
+		padding: 20%;
+	}
+	.poto{
+		flex: 100%;
+		background-color:white;
+		padding: 20px;	
+	}
+	.fakeimg{
+		background-image:url(gambar/img2.png);
+		width: 100%;
+		padding: 5px;
+		height: 100%;
+		background-position: center;
+		display: flex;
+		background-size: 100%;
+		overflow: auto;
+		background-repeat: no-repeat;
+	}
+	.fakeimg1{
+		background-image:url(gambar/img3.png);
+		width: 100%;
+		padding: 20px;
+		height: 100%;
+		background-position:  center;
+		display: flex;
+		background-size: 100%;
+		overflow: auto;
+		background-repeat: no-repeat;
+	}
+	.fakeimg2{
+		background-image:url(gambar/img2.png);
+		width: 100%;
+		padding: 5px;
+		height: 100%;
+		background-position: center;
+		display: flex;
+		background-size: 100%;
+		overflow: auto;
+		background-repeat: no-repeat;
+	}
+	.fakeimg3{
+		background-image:url(gambar/img4.png);
+		width: 100%;
+		padding: 20px;
+		height: 100%;
+		background-position:  center;
+		display: flex;
+		background-size: 100%;
+		overflow: auto;
+		background-repeat: no-repeat;
+	}
+	.tempat {
+		margin-top: 20px;
+		padding: 16px;
+		background-color: white;
+		}
+		input[type=text], input[type=password] {
+		width: 100%;
+		padding: 15px;
+		margin: 5px 0 22px 0;
+		display: inline-block;
+		border: none;
+		background: #f1f1f1;
+		}
+		input[type=Messager], {
+			width: 100%;
+			padding: 15px;
+			margin: 5px 0 22px 0;
+			display: inline-block;
+			border: none;
+			background: #f1f1f1;
+		}
+		input[type=text]:focus, input[type=password]:focus {
+		background-color: #ddd;
+		outline: none;
+		}
+		  
+		  
+		hr {
+		border: 1px solid #f1f1f1;
+		margin-bottom: 25px;
+		}
+		.kirim {
+		background-color:rgb(224, 203, 14);
+		color: white;
+		padding: 16px 20px;
+		margin: 8px 0;
+		border: none;
+		cursor: pointer;
+		width: 100%;
+		opacity: 0.9;
+		}
+		  
+		.kirim:hover {
+		opacity: 1;
+		}
+		.table{
+		max-width: 90%;
+		background-color: rgb(5, 79, 88) ;
+		margin: 70px auto;
+		}
+		.table table{
+		text-align: center;
+		} 
+		@keyframes slidein{
+			
+		from{}
+		to{
+		transform: translateX(0);
+		}
+	  } 
+	.footer{
+		padding: 20px;
+		text-align: center;
+		background: #ddd;
+	}
+
